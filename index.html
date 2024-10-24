@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logui.ico">
+    <title>Portafolio Katy</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Katherine</a>
+            </div>
+            
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#acercademi" onclick="seleccionar()">ACERCA DE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">FROMACIÓN PROFESIONAL</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">DIPLOMAS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/IMG-20220810-WA0007.jpg" alt="">
+            </div>
+            <h1>Katherine González</h1>
+            <h2>Estudiante en Desarrollo de software</h2>
+            
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="acercademi" class="acercademi">
+        <div class="contenido-seccion">
+            <h2>Acerca de mí</h2>
+            <p><span>Soy Katherine González</span> Desde que comencé a programar, he estado comprometido con mejorar 
+                mis habilidades y aprender nuevas tecnologías. Me fascina cómo el código puede transformar ideas en realidad y disfrutar colaborando en 
+                equipos para lograr resultados sorprendentes. 
+                Mis principales intereses incluyen el desarrollo de aplicaciones 
+                web, creación de paginas web, diseñar en Unity y la implementación de soluciones.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de Nacimiento </strong>
+                            24-03-2006
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            (+503) 6073-9543
+                        </li>
+                        <li>
+                            <strong>Gmail</strong>
+                            Katherdez15@gmail.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                             San Francisco Chinameca 
+                        </li>
+                        <li>
+                            <strong>   <a href="https://github.com/katherinMelendez" target="_blank">
+                              <button class="github-button">Visita mi cuenta de GitHub</button>
+                            </a>
+                        </strong>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>DISEÑAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>PROGRAMAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Lista de Habilidades Técnicas y Herramientas Utilizadas</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Unity</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>
+                        Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Redacción técnica</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Presentación de Proyectos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Formación Profesional </h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Escuela Parvularia</h4>
+                        <span class="casa">Centro Escolar Cantón Candelaria</span>
+                        <span class="fecha">2009 - 2012</span>
+                        <p>
+                        Durante mi etapa de educación parvularia, desarrollé las bases fundamentales 
+                        para mi crecimiento personal y académico. Asimismo, di mis primeros pasos en la lectoescritura 
+                        y la numeración, adquiriendo habilidades esenciales que facilitaron mi transición a niveles 
+                        educativos más avanzados.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Básica</h4>
+                        <span class="casa">Centro Escolar José Mariano Calderón (C.E.J.M.C.)</span>
+                        <span class="fecha">2013 - 2021</span>
+                        <p>Durante mi educación básica, desde primer a noveno grado,
+                             desarrollé habilidades fundamentales en lectura, escritura y matemáticas.
+                            Participé en proyectos grupales y actividades 
+                            extracurriculares que fomentaron mi creatividad y trabajo en equipo lo que me llevó a participar en ferias y exposiciones, mejorando mis habilidades de investigación y comunicación.
+                             El el año 2020 obtuve una beca de 4 años en Las Academias Sabatina Comunicación y Gestión Empresarial. (ASAB) </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Educación Media</h4>
+                        <span class="casa">Instituto Nacional de San Miguel Tepezonte. (INSAMT)</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p> En mis tres años en el bachillerato en Desarrollo de Software, adquirí habilidades fundamentales en programación con lenguajes como HTML, PHP, CSS, C++ y JavaScript, así como en el desarrollo y gestión de bases de datos utilizando SQL. Participe en cada año en la Feria CIMAT con proyectos realizado junto con mis compañeros, trabajar en equipo me enseñó la importancia de la colaboración y la comunicación, mientras que el uso de herramientas como GitHub me ayudó a entender la gestión de código.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Participaciones en la Feria CIMAT</h3>
+                    <div class="item der">
+                        <h4>Cerradura inteligente</h4>
+                        <span class="casa">Categoriade Ingeniería</span>
+                        <span class="fecha">2022</span>
+                        <p>Este proyecto fue elaborado para contar con un sistema de seguridad electrónico, por medio de una cerradura electrica un prototico que brinda una mejor seguridad en lugar que se instale. También se llevó a cabo con el propósito de no necesitar de una llave y utilizar una tarjeta RFID como solución </p>
+                        <strong>   <a href="https://www.youtube.com/watch?v=Ul53yPdGOw8" target="_blank">
+                            <button class="youtube-button">Video del proyecto</button>
+                          </a>
+                      </strong>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Poniendo en Práctica la Gramática(P.P.G)</h4>
+                        <span class="casa">Categoria de Tecnología.  </span>
+                        <span class="fecha">2023</span>
+                        <p>Desarrolle un juego que este nos permitiera apreciar la complejidad la riqueza de las reglas gramaticales, y esperamos que esta investigación sea útil para quienes deseen mejorar sus habilidades lingüísticas y comprender mejor el funcionamiento de la gramática en su idioma de estudio.</p>
+                        <strong>   <a href="https://drive.google.com/file/d/1y52RWtnQG1MRu5P7hirP4tbPHm8FIUyA/view?usp=drive_link" target="_blank">
+                            <button class="drive-button">Video del proyecto</button>
+                          </a>
+                      </strong>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Neuro Space</h4>
+                        <span class="casa">Categoria de Tecnología</span>
+                        <span class="fecha">2024</span>
+                        <p>El juego de Realidad Virtual ha sido creado para
+                            proporcionar una experiencia inmersiva que permitá a
+                            los jugadores explorar diferentes situaciones referente
+                             al bullying escolar y aprendan estrategias de autocuido
+                        para mejorar la salud mental y evitar la depresión. Con este proyecto se obtuvo el 4°Lugar en la categoria de Tecnología.</p>
+                        <strong>   <a href="https://www.youtube.com/watch?v=njzdcUVkUQk" target="_blank">
+                            <button class="youtube-button">Video del proyecto</button>
+                          </a>
+                      </strong>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->    
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Diplomas de primer año de bachillerato</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/cerradura.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto cerradura inteligente</h3>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/arduino.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Robótica con Arduino</h3>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/logica.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Juego de lógica</h3>
+                        <p>2022</p>
+                    </div>
+                </div>  
+                <div class="proyecto">
+                    <img src="img/html.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Diploma de HTML</h3>
+                        <p>2022</p>
+                    </div>
+                </div>      
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Diplomas de tercer año de bachillerato</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/git.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>GitHub</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/linux.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Linux</h3>
+                        <p>2024</p>
+                    </div>
+                </div>  
+                <div class="proyecto">
+                    <img src="img/impresion.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Impresión 3D</h3>
+                        <p>2024</p>
+                    </div>
+                </div>      
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Diplomas obtenido por de la beca de la Academias Sabatina Comunicación y Gestión Empresarial. (ASAB)</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/basico.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Nivel Básico</h3>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/intermedio.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Nivel Intermedio</h3>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/avanzado.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Nivel Avanzado</h3>
+                        <p>2023</p>
+                    </div>
+                </div>  
+                <div class="proyecto">
+                    <img src="img/superior.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Nivel Superior</h3>
+                        <p>2024</p>
+                    </div>
+                </div>      
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Cantón Candelaria, La vuelta del muñeco
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Teléfono:60739543 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: katherdez15@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
